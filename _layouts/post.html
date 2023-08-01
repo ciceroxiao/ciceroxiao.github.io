@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/main.css">
+    <style>
+      @media screen and (max-width: 768px) {
+        /* 在屏幕宽度小于等于 768px 时应用以下样式 */
+        /* 修改文章标题的字体大小 */
+        h1 {
+          font-size: 24px;
+        }
+        /* 修改图片的宽度 */
+        img {
+          max-width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
