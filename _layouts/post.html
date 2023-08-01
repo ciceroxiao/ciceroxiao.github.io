@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">首页</a></li>
+          <li><a href="/archives/">归档</a></li>
+          <li><a href="/about/">关于</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}
+          <h2>{{ page.subtitle }}</h2>
+        {% endif %}
+        {{ content }}
+      </article>
+      <aside>
+        <h2>标签</h2>
+        <ul>
+          {% for tag in site.tags %}
+            <li><a href="/tags/{{ tag[0] }}/">{{ tag[0] }}</a></li>
+          {% endfor %}
+        </ul>
+      </aside>
+    </main>
+    <footer>
+      <p>版权所有 &copy; 2023 西塞驴</p>
+    </footer>
+  </body>
+</html>
