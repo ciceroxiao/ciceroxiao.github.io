@@ -1,52 +1,116 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <style>
-      @media screen and (max-width: 768px) {
-        /* 在屏幕宽度小于等于 768px 时应用以下样式 */
-        /* 修改文章标题的字体大小 */
-        h1 {
-          font-size: 24px;
-        }
-        /* 修改图片的宽度 */
-        img {
-          max-width: 100%;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/">首页</a></li>
-          <li><a href="/archives/">归档</a></li>
-          <li><a href="/about/">关于</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article>
-        <h1>{{ page.title }}</h1>
-        {% if page.subtitle %}
-          <h2>{{ page.subtitle }}</h2>
-        {% endif %}
-        {{ content }}
-      </article>
-      <aside>
-        <h2>标签</h2>
-        <ul>
-          {% for tag in site.tags %}
-            <li><a href="/tags/{{ tag[0] }}/">{{ tag[0] }}</a></li>
-          {% endfor %}
-        </ul>
-      </aside>
-    </main>
-    <footer>
-      <p>版权所有 &copy; 2023 西塞驴</p>
-    </footer>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}
+  <h2>{{ page.subtitle }}</h2>
+  {% endif %}
+</div>
+
+<div class="content-wrapper">
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <nav>
+    <!-- 导航栏内容 -->
+  </nav>
+
+  <footer>
+    <h3>Tags:</h3>
+    <ul>
+    {% for tag in page.tags %}
+      <li><a href="/tag/{{ tag }}">{{ tag }}</a></li>
+    {% endfor %}
+    </ul>
+  </footer>
+</div>
+
+<style>
+  .page-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .page-header h1 {
+    margin-top: 0;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .post-content {
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  nav {
+    max-width: 300px;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  footer {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  footer h3 {
+    margin-bottom: 10px;
+  }
+
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  footer li:last-child {
+    margin-right: 0;
+  }
+
+  footer a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+  }
+
+  footer a:hover {
+    border-bottom: none;
+  }
+
+  @media (max-width: 767px) {
+    .content-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .post-content {
+      max-width: 100%;
+      padding: 0;
+    }
+
+    footer {
+      max-width: 100%;
+    }
+  }
+</style>
