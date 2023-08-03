@@ -6,8 +6,6 @@ email: xiaocicero@gmail.com
 baseurl: 
 description: 这里是西塞驴的碎碎念
 
-permalink: /:slug.html
-
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
@@ -21,3 +19,25 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title/
+  categories:
+    output: true
+    permalink: /categories/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author_profile: true
+      comments: true
+  - scope:
+      path: ""
+    values:
+      layout: "home"
