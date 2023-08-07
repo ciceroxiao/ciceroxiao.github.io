@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "59520afd9ac3b318",
+        "id": "08848cf5c37d94ba",
         "type": "tabs",
         "children": [
           {
-            "id": "70de30e20aa32644",
+            "id": "c47d1717df818f40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/notes/2023-08-06-像少年般呼啦飞驰.md",
+                "file": "_posts/notes/2023-08-07-天才与白痴.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/notes/2023-08-06-像少年般呼啦飞驰.md",
+                "file": "_posts/notes/2023-08-07-天才与白痴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/notes/2023-08-06-像少年般呼啦飞驰.md",
+                "file": "_posts/notes/2023-08-07-天才与白痴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/notes/2023-08-06-像少年般呼啦飞驰.md"
+                "file": "_posts/notes/2023-08-07-天才与白痴.md"
               }
             }
           }
@@ -146,11 +146,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "70de30e20aa32644",
+  "active": "c47d1717df818f40",
   "lastOpenFiles": [
+    "attachment/Pasted image 20230807160155.png",
+    "attachment/Pasted image 20230807160201.png",
+    "attachment/README.md",
+    "_posts/notes/2023-08-07-天才与白痴.md",
     "_posts/notes/2023-08-04-洪灾给我的几个教训.md",
-    "_posts/notes/2023-08-01-七月的云.md",
     "_posts/notes/2023-08-06-像少年般呼啦飞驰.md",
+    "_posts/notes/2023-08-01-七月的云.md",
     "_posts/2023-08-06-像少年般呼啦飞驰.md",
     "_posts/notes/2023-08-04-怎样读书.md",
     "_posts/notes/2023-07-28-不是“废物”，只是“生病”了.md",
@@ -159,7 +163,6 @@
     "attachment/2023_w30.md",
     "_posts/summary/2023-07-28-2023_w29.md",
     "_posts/summary/2023-07-17-2023_w28.md",
-    "attachment/README.md",
     "attachment/202307281239/p2893318955.jpg",
     "attachment/202307281239/p2895554352.jpg",
     "attachment/202307281239/p2895554351.jpg",
@@ -169,8 +172,6 @@
     "attachment/202307281239/p2893318923.jpg",
     "attachment/202307281239",
     "attachment/202308010930/IMG20230703091544.jpg",
-    "attachment/202308010930/IMG20230706091637.jpg",
-    "attachment/202308010930/IMG20230705090820.jpg",
     "attachment/202308010930",
     "index.md",
     "README.md",
