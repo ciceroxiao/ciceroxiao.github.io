@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/notes/2023-08-07-天才与白痴.md",
+                "file": "_posts/2023-07-16-Hello World.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/notes/2023-08-07-天才与白痴.md",
+                "file": "_posts/2023-07-16-Hello World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/notes/2023-08-07-天才与白痴.md",
+                "file": "_posts/2023-07-16-Hello World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/notes/2023-08-07-天才与白痴.md"
+                "file": "_posts/2023-07-16-Hello World.md"
               }
             }
           }
@@ -138,46 +138,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "c47d1717df818f40",
   "lastOpenFiles": [
-    "attachment/Pasted image 20230807160155.png",
-    "attachment/Pasted image 20230807160201.png",
-    "attachment/README.md",
-    "_posts/notes/2023-08-07-天才与白痴.md",
-    "_posts/notes/2023-08-04-洪灾给我的几个教训.md",
-    "_posts/notes/2023-08-06-像少年般呼啦飞驰.md",
-    "_posts/notes/2023-08-01-七月的云.md",
-    "_posts/2023-08-06-像少年般呼啦飞驰.md",
-    "_posts/notes/2023-08-04-怎样读书.md",
-    "_posts/notes/2023-07-28-不是“废物”，只是“生病”了.md",
-    "_posts/notes/2023-07-16-“三年自然疫灾”期间的一些存图.md",
     "_posts/summary/2023-08-02-2023_w30.md",
-    "attachment/2023_w30.md",
     "_posts/summary/2023-07-28-2023_w29.md",
     "_posts/summary/2023-07-17-2023_w28.md",
-    "attachment/202307281239/p2893318955.jpg",
-    "attachment/202307281239/p2895554352.jpg",
-    "attachment/202307281239/p2895554351.jpg",
-    "attachment/202307281239/p2893367715 1.jpg",
-    "attachment/202307281239/p2893367714.jpg",
-    "attachment/202307281239/p2893318957.jpg",
-    "attachment/202307281239/p2893318923.jpg",
-    "attachment/202307281239",
-    "attachment/202308010930/IMG20230703091544.jpg",
-    "attachment/202308010930",
-    "index.md",
-    "README.md",
-    "attachment/202307281225",
-    "attachment/202307170931",
-    "attachment/新建文件夹",
-    "_posts/2023-07-16-Hello World.md"
+    "_posts/notes/2023-07-16-“三年自然疫灾”期间的一些存图.md",
+    "_posts/notes/2023-07-28-不是“废物”，只是“生病”了.md",
+    "_posts/notes/2023-08-01-七月的云.md",
+    "_posts/notes/2023-08-04-洪灾给我的几个教训.md",
+    "_posts/notes/2023-08-04-怎样读书.md",
+    "_posts/notes/2023-08-06-像少年般呼啦飞驰.md",
+    "_posts/notes/2023-08-07-天才与白痴.md"
   ]
 }
