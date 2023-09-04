@@ -4,5 +4,6 @@
   "newLinkFormat": "absolute",
   "promptDelete": false,
   "useMarkdownLinks": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "propertiesInDocument": "source"
 }
