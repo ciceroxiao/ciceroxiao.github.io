@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/notes/2023-09-05-八月份的云.md",
+                "file": "_posts/summary/2023-09-10-2023_w36.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/notes/2023-09-05-八月份的云.md",
+                "file": "_posts/summary/2023-09-10-2023_w36.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/notes/2023-09-05-八月份的云.md",
+                "file": "_posts/summary/2023-09-10-2023_w36.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/notes/2023-09-05-八月份的云.md"
+                "file": "_posts/summary/2023-09-10-2023_w36.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "c47d1717df818f40",
   "lastOpenFiles": [
-    "_posts/summary/2023-09-04-2023_w35.md",
+    "README.md",
     "_posts/notes/2023-09-05-八月份的云.md",
+    "_posts/summary/2023-09-04-2023_w35.md",
     "_posts/notes/2023-08-24-自我改善之道.md",
     "_posts/summary/2023-08-28-2023_w34.md",
     "_posts/2023-07-16-Hello World.md",
