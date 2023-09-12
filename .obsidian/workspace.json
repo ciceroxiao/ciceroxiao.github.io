@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "08848cf5c37d94ba",
+        "id": "e6b36749770bdd40",
         "type": "tabs",
         "children": [
           {
-            "id": "c47d1717df818f40",
+            "id": "f8807c49852094a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/summary/2023-09-10-2023_w36.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/summary/2023-09-10-2023_w36.md",
+                "file": "_posts/notes/2023-09-11-少即是多.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/summary/2023-09-10-2023_w36.md",
+                "file": "_posts/notes/2023-09-11-少即是多.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/summary/2023-09-10-2023_w36.md"
+                "file": "_posts/notes/2023-09-11-少即是多.md"
               }
             }
           }
@@ -146,8 +142,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c47d1717df818f40",
+  "active": "1921a16d840866a9",
   "lastOpenFiles": [
+    "_posts/summary/2023-09-10-2023_w36.md",
     "README.md",
     "_posts/notes/2023-09-05-八月份的云.md",
     "_posts/summary/2023-09-04-2023_w35.md",
