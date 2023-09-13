@@ -11,8 +11,12 @@
             "id": "f8807c49852094a3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/notes/2023-09-13-杨步伟的前半生.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/notes/2023-09-11-少即是多.md",
+                "file": "_posts/notes/2023-09-13-杨步伟的前半生.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/notes/2023-09-11-少即是多.md",
+                "file": "_posts/notes/2023-09-13-杨步伟的前半生.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/notes/2023-09-11-少即是多.md"
+                "file": "_posts/notes/2023-09-13-杨步伟的前半生.md"
+              }
+            }
+          },
+          {
+            "id": "c5d7e771457f33bf",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -142,7 +156,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1921a16d840866a9",
+  "active": "f8807c49852094a3",
   "lastOpenFiles": [
     "_posts/summary/2023-09-10-2023_w36.md",
     "README.md",
